@@ -4,10 +4,10 @@
     name: apt-transport-https
     state: installed
 
-- name: Remove packagecloud.io Varnish apt key on Ubuntu 17.10
-  apt_key:
-    url: https://packagecloud.io/varnishcache/{{ varnish_packagecloud_repo }}/gpgkey
-    state: absent
+#- name: Remove packagecloud.io Varnish apt key on Ubuntu 17.10
+#  apt_key:
+#   url: https://packagecloud.io/varnishcache/{{ varnish_packagecloud_repo }}/gpgkey
+#    state: absent
 
 #- name: Add packagecloud.io Varnish apt repository.
 #  apt_repository:
